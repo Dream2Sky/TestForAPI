@@ -1,0 +1,76 @@
+[02:42:40]request url:http://localhost:8081/data.json
+[02:42:40]request-headers:
+[02:42:40]	Host:localhost:8081
+[02:42:40]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[02:42:40]	Content-type:application/json
+[02:42:40]	Connection:Keep-Alive
+[02:42:40]	Cache-control:no-cache
+[02:42:40]response-headers:
+[02:42:40]	content-length:54
+[02:42:40]	accept-ranges:bytes
+[02:42:40]	server:nginx/1.10.3 (Ubuntu)
+[02:42:40]	last-modified:Thu, 03 May 2018 17:25:28 GMT
+[02:42:40]	connection:close
+[02:42:40]	etag:"5aeb4608-36"
+[02:42:40]	date:Thu, 03 May 2018 18:42:40 GMT
+[02:42:40]	content-type:application/json
+[02:42:40]result for current request:
+[02:42:40]{  "UserName":"hehe123",  "Password":"R1NiXianRen"}
+
+[02:42:43]request url:http://localhost:8081/data.json
+[02:42:43]request-headers:
+[02:42:43]	Host:localhost:8081
+[02:42:43]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[02:42:43]	Content-type:application/json
+[02:42:43]	Connection:Keep-Alive
+[02:42:43]	Cache-control:no-cache
+[02:42:43]response-headers:
+[02:42:43]	content-length:54
+[02:42:43]	accept-ranges:bytes
+[02:42:43]	server:nginx/1.10.3 (Ubuntu)
+[02:42:43]	last-modified:Thu, 03 May 2018 17:25:28 GMT
+[02:42:43]	connection:close
+[02:42:43]	etag:"5aeb4608-36"
+[02:42:43]	date:Thu, 03 May 2018 18:42:43 GMT
+[02:42:43]	content-type:application/json
+[02:42:43]result for current request:
+[02:42:43]{  "UserName":"hehe123",  "Password":"R1NiXianRen"}
+
+[02:57:59]request url:http://localhost:8081/data.json
+[02:57:59]request-headers:
+[02:57:59]	Host:localhost:8081
+[02:57:59]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[02:57:59]	Content-type:application/json
+[02:57:59]	Connection:Keep-Alive
+[02:57:59]	Cache-control:no-cache
+[02:57:59]response-headers:
+[02:57:59]	content-length:54
+[02:57:59]	accept-ranges:bytes
+[02:57:59]	server:nginx/1.10.3 (Ubuntu)
+[02:57:59]	last-modified:Thu, 03 May 2018 17:25:28 GMT
+[02:57:59]	connection:close
+[02:57:59]	etag:"5aeb4608-36"
+[02:57:59]	date:Thu, 03 May 2018 18:57:59 GMT
+[02:57:59]	content-type:application/json
+[02:57:59]result for current request:
+[02:57:59]{  "UserName":"hehe123",  "Password":"R1NiXianRen"}
+
+[03:00:38]request url:http://localhost:8081/data.json
+[03:00:38]request-headers:
+[03:00:38]	Host:localhost:8081
+[03:00:38]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[03:00:38]	Content-type:application/json
+[03:00:38]	Connection:Keep-Alive
+[03:00:38]	Cache-control:no-cache
+[03:00:38]response-headers:
+[03:00:38]	content-length:54
+[03:00:38]	accept-ranges:bytes
+[03:00:38]	server:nginx/1.10.3 (Ubuntu)
+[03:00:38]	last-modified:Thu, 03 May 2018 17:25:28 GMT
+[03:00:38]	connection:close
+[03:00:38]	etag:"5aeb4608-36"
+[03:00:38]	date:Thu, 03 May 2018 19:00:38 GMT
+[03:00:38]	content-type:application/json
+[03:00:38]result for current request:
+[03:00:38]{  "UserName":"hehe123",  "Password":"R1NiXianRen"}
+

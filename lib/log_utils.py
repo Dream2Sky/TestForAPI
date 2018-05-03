@@ -9,14 +9,21 @@ import cmd_color_printers
 STORAGETYPE = storageType.STDOUTPUT
 FILEPATH = ''
 
-def WriteLog(msg, logType = logType.INFO):
-    log = '[%s]%s\n'%(dateHelper.GetLocalTime(), msg)
+def WriteLog(msg = '', logType = logType.INFO):
+    if msg.strip() == '':
+        log = '\n'
+    else:
+        log = '[%s]%s\n'%(dateHelper.GetLocalTime(), msg)
     if  logType == logType.INFO:
         cmd_color_printers.printDarkGreen(log)
     elif logType == logType.WARN:
         cmd_color_printers.printDarkYellow(log)
     elif logType == logType.ERROR:
         cmd_color_printers.printRed(log)
+    elif logType == logType.RESULT:
+        cmd_color_printers.printYellow(log)
+    elif logType == logType.TITLE:
+        cmd_color_printers.printGreen(log)
     else:
         cmd_color_printers.printWhite(log)
     

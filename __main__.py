@@ -6,13 +6,18 @@ from pyfiglet import Figlet
 import urllib
 import urllib2
 from lib.log_utils import logType
+from lib.log_utils import storageType
 from lib import log_utils
 import re
 import os
+import json
 
 URLPATTERN = '^(https?|ftp|file)://.+$'
 ISPOST = False
 POSTDATA = ''
+OUTPUT_FILE = None
+POST_FILE = None
+USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko'
 # banner
 f = Figlet()
 print f.renderText('liushaoting')
@@ -30,29 +35,74 @@ output = args.output
 postFile = args.file
 isLogin = args.login
 
-log_utils.WriteLog(url,logType.WARN)
-log_utils.WriteLog(url,logType.ERROR)
-log_utils.WriteLog(url)
+#判断URL是否存在
 if not url:
     parser.print_help()
     sys.exit()
 
+#判断URL是否合法
 if re.match(URLPATTERN, url) is None:
     print u'不合法的URL链接'
     sys.exit()
 
+#判断是否是POST请求，并判断post文件是否可以访问，可以则读取里面的参数
 if postFile:
     ISPOST = True
     if not os.access(postFile, os.R_OK):
-        print u'所提供的post文件不存在或不可访问'
+        log_utils.WriteLog(u'所提供的post文件不存在或不可访问',logType.ERROR)
         sys.exit()
     else:
-        paramFile = open(postFile, 'r+')
-        POSTDATA = paramFile.read(paramFile.size)
-# req = urllib2.Request(url)
+        try:
+            POST_FILE = open(postFile, 'r+')
+            POSTDATA = json.loads(POST_FILE.read())
+            print POSTDATA['PostData']
+            POST_FILE.close()
+        except IOError as e:
+            log_utils.WriteLog(e,logType.ERROR)
+            sys.exit()
+                
+#判断是否要输出结果到其他文件
+if output:
+    output = 'output/'+output
+    try:
+        OUTPUT_FILE = open(output, 'a+')
+        log_utils.STORAGETYPE = storageType.FILE
+        log_utils.FILEPATH = output
+    except IOError as e:
+        log_utils.WriteLog(e,logType.ERROR)
+        sys.exit()
 
-# res_data = urllib2.urlopen(req)
-# for header in res_data.headers:
-#     print header+':'+res_data.headers[header]
-# res = res_data.read()
+#开始请求URL
+log_utils.WriteLog(u'request url:'+url)
+
+#构造请求头
+proto, rest = urllib.splittype(url)
+host, rest = urllib.splithost(rest)
+header_dict = {
+    'Host':'unkonw' if not host else host,
+    'User-Agent':USER_AGENT,
+    'Content-Type':'application/json',
+    'Connection':'Keep-Alive',
+    'Cache-Control':'no-cache'
+}
+log_utils.WriteLog('request-headers:',logType.TITLE)
+req = urllib2.Request(url,headers=header_dict)
+for header in req.headers:
+    log_utils.WriteLog('\t%s:%s' % (header, req.headers[header]), logType.RESULT)
+
+log_utils.WriteLog('response-headers:',logType.TITLE)
+try:
+    res_data = urllib2.urlopen(req)
+except urllib2.URLError as e:
+    log_utils.WriteLog(e, logType.ERROR)
+    sys.exit()
+else:
+    for header in res_data.headers:
+        log_utils.WriteLog('\t%s:%s' % (header,res_data.headers[header]), logType.RESULT)
+    res = res_data.read()
+
+    log_utils.WriteLog('result for current request:',logType.TITLE)
+    log_utils.WriteLog(res.strip().replace("\n",""),logType.RESULT)
+    log_utils.WriteLog()
+
 #print res

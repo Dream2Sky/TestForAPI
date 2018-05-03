@@ -2,6 +2,7 @@
 #coding=utf-8
  
 import ctypes,sys
+import platform
  
 STD_INPUT_HANDLE = -10
 STD_OUTPUT_HANDLE = -11
@@ -45,19 +46,53 @@ BACKGROUND_RED = 0xc0 # red.
 BACKGROUND_PINK = 0xd0 # pink.
 BACKGROUND_YELLOW = 0xe0 # yellow.
 BACKGROUND_WHITE = 0xf0 # white.
- 
- 
+
+# Linux console 字体颜色
+LINUX_STYLE = {
+    'FORE':{
+        'RED': 31,
+        'GREEN': 32,
+        'YELLOW': 33,
+        'BLUE':34,
+        'WHITE': 37
+    }
+}
+
  
 # get handle
-std_out_handle = ctypes.windll.kernel32.GetStdHandle(STD_OUTPUT_HANDLE)
+
  
-def set_cmd_text_color(color, handle=std_out_handle):
-    Bool = ctypes.windll.kernel32.SetConsoleTextAttribute(handle, color)
-    return Bool
+def set_cmd_text_color(color):
+    if 'Windows' in platform.system():
+        std_out_handle = ctypes.windll.kernel32.GetStdHandle(STD_OUTPUT_HANDLE)
+        Bool = ctypes.windll.kernel32.SetConsoleTextAttribute(std_out_handle, color)
+        return Bool
+    else:
+        set_pre_color(color)
  
+def set_pre_color(color):
+    if color is FOREGROUND_RED:
+        sys.stdout.write('\033[%sm' % LINUX_STYLE['FORE']['RED'])
+    elif color is FOREGROUND_DARKGREEN:
+        sys.stdout.write('\033[%sm' % LINUX_STYLE['FORE']['GREEN'])
+    elif color is FOREGROUND_DARKYELLOW:
+        sys.stdout.write('\033[%sm' % LINUX_STYLE['FORE']['YELLOW'])
+    elif color is FOREGROUND_SKYBLUE:
+        sys.stdout.write('\033[%sm' % LINUX_STYLE['FORE']['BLUE'])
+    elif color is FOREGROUND_GREEN:
+        sys.stdout.write('\033[1;%sm' % LINUX_STYLE['FORE']['GREEN'])
+    elif color is FOREGROUND_YELLOW:
+        sys.stdout.write('\033[1;%sm' % LINUX_STYLE['FORE']['YELLOW'])
+    else:
+        sys.stdout.write('\033[%sm' % LINUX_STYLE['FORE']['WHITE'])
+        
+
 #reset white
 def resetColor():
-    set_cmd_text_color(FOREGROUND_WHITE)
+    if 'Windows' in platform.system():
+        set_cmd_text_color(FOREGROUND_WHITE)
+    else:
+        sys.stdout.write('\033[%sm' % 0)
  
 ###############################################################
  
