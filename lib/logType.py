@@ -6,3 +6,4 @@ class logType(Enum):
     ERROR = 3
     TITLE = 4
     RESULT = 5
+    WHITE = 6

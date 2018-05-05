@@ -1,0 +1,866 @@
+[09:31:53]request url:http://localhost:5000/api/APIForPy/
+[09:31:53]request-headers:
+[09:31:53]paramters of current request
+[09:31:53]{"username":"user1","password":"hehe123"}
+[09:31:53]	Host:localhost:5000
+[09:31:53]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[09:31:53]	Content-type:application/json
+[09:31:53]	Connection:Keep-Alive
+[09:31:53]	Cache-control:no-cache
+[09:31:53]response-headers:
+[09:31:53]	date:Sat, 05 May 2018 01:31:52 GMT
+[09:31:53]	transfer-encoding:chunked
+[09:31:53]	connection:close
+[09:31:53]	content-type:application/json; charset=utf-8
+[09:31:53]	server:Kestrel
+[09:31:53]result for current request:
+[09:31:53]{"username":"user1","password":"hehe123"}
+
+[09:31:53]paramters of current request
+[09:31:53]{"username":"user2","password":"hehe123"}
+[09:31:53]	Host:localhost:5000
+[09:31:53]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[09:31:53]	Content-type:application/json
+[09:31:53]	Connection:Keep-Alive
+[09:31:53]	Cache-control:no-cache
+[09:31:53]response-headers:
+[09:31:53]	date:Sat, 05 May 2018 01:31:52 GMT
+[09:31:53]	transfer-encoding:chunked
+[09:31:53]	connection:close
+[09:31:53]	content-type:application/json; charset=utf-8
+[09:31:53]	server:Kestrel
+[09:31:53]result for current request:
+[09:31:53]{"username":"user2","password":"hehe123"}
+
+[09:55:18]request url:http://localhost:5000/api/APIForPy/
+[09:55:18]paramters of current request
+[09:55:18]{"username":"user1","password":"hehe123"}
+[09:55:18]request-headers:
+[09:55:18]	Host:localhost:5000
+[09:55:18]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[09:55:18]	Content-type:application/json
+[09:55:18]	Connection:Keep-Alive
+[09:55:18]	Cache-control:no-cache
+[09:57:46]request url:http://localhost:5000/api/APIForPy/
+[09:57:46]paramters of current request
+[09:57:46]{"username":"user1","password":"hehe123"}
+[09:57:46]request-headers:
+[09:57:46]	Host:localhost:5000
+[09:57:46]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[09:57:46]	Content-type:application/json
+[09:57:46]	Connection:Keep-Alive
+[09:57:46]	Cache-control:no-cache
+[09:57:46]http status:200	spend time:0.00350213050842
+[09:57:46]response-headers:
+[09:57:46]	date:Sat, 05 May 2018 01:57:46 GMT
+[09:57:46]	transfer-encoding:chunked
+[09:57:46]	connection:close
+[09:57:46]	content-type:application/json; charset=utf-8
+[09:57:46]	server:Kestrel
+[09:57:46]result for current request:
+[09:57:46]{"username":"user1","password":"hehe123"}
+
+[09:57:46]paramters of current request
+[09:57:46]{"username":"user2","password":"hehe123"}
+[09:57:46]request-headers:
+[09:57:46]	Host:localhost:5000
+[09:57:46]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[09:57:46]	Content-type:application/json
+[09:57:46]	Connection:Keep-Alive
+[09:57:46]	Cache-control:no-cache
+[09:57:46]http status:200	spend time:0.00158095359802
+[09:57:46]response-headers:
+[09:57:46]	date:Sat, 05 May 2018 01:57:46 GMT
+[09:57:46]	transfer-encoding:chunked
+[09:57:46]	connection:close
+[09:57:46]	content-type:application/json; charset=utf-8
+[09:57:46]	server:Kestrel
+[09:57:46]result for current request:
+[09:57:46]{"username":"user2","password":"hehe123"}
+
+[10:03:18]request url:http://localhost:5000/api/APIForPy/
+[10:03:18]paramters of current request
+[10:03:18]{"username":"user1","password":"hehe123"}
+[10:03:18]http status:200  spend time:0.00399899482727 s
+[10:03:18]request-headers:
+[10:03:18]	Host:localhost:5000
+[10:03:18]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[10:03:18]	Content-type:application/json
+[10:03:18]	Connection:Keep-Alive
+[10:03:18]	Cache-control:no-cache
+[10:03:18]response-headers:
+[10:03:18]	date:Sat, 05 May 2018 02:03:17 GMT
+[10:03:18]	transfer-encoding:chunked
+[10:03:18]	connection:close
+[10:03:18]	content-type:application/json; charset=utf-8
+[10:03:18]	server:Kestrel
+[10:03:18]result for current request:
+[10:03:18]{"username":"user1","password":"hehe123"}
+
+[10:03:18]paramters of current request
+[10:03:18]{"username":"user2","password":"hehe123"}
+[10:03:18]http status:200  spend time:0.00148892402649 s
+[10:03:18]request-headers:
+[10:03:18]	Host:localhost:5000
+[10:03:18]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[10:03:18]	Content-type:application/json
+[10:03:18]	Connection:Keep-Alive
+[10:03:18]	Cache-control:no-cache
+[10:03:18]response-headers:
+[10:03:18]	date:Sat, 05 May 2018 02:03:17 GMT
+[10:03:18]	transfer-encoding:chunked
+[10:03:18]	connection:close
+[10:03:18]	content-type:application/json; charset=utf-8
+[10:03:18]	server:Kestrel
+[10:03:18]result for current request:
+[10:03:18]{"username":"user2","password":"hehe123"}
+
+[10:04:36]request url:http://localhost:5000/api/APIForPy/
+[10:04:36]parameters:{"username":"user1","password":"hehe123"}
+[10:04:36]http status:200  spend time:0.00360298156738 s
+[10:04:36]request-headers:
+[10:04:36]	Host:localhost:5000
+[10:04:36]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[10:04:36]	Content-type:application/json
+[10:04:36]	Connection:Keep-Alive
+[10:04:36]	Cache-control:no-cache
+[10:04:36]response-headers:
+[10:04:36]	date:Sat, 05 May 2018 02:04:36 GMT
+[10:04:36]	transfer-encoding:chunked
+[10:04:36]	connection:close
+[10:04:36]	content-type:application/json; charset=utf-8
+[10:04:36]	server:Kestrel
+[10:04:36]result for current request:
+[10:04:36]{"username":"user1","password":"hehe123"}
+
+[10:04:36]parameters:{"username":"user2","password":"hehe123"}
+[10:04:36]http status:200  spend time:0.00160908699036 s
+[10:04:36]request-headers:
+[10:04:36]	Host:localhost:5000
+[10:04:36]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[10:04:36]	Content-type:application/json
+[10:04:36]	Connection:Keep-Alive
+[10:04:36]	Cache-control:no-cache
+[10:04:36]response-headers:
+[10:04:36]	date:Sat, 05 May 2018 02:04:36 GMT
+[10:04:36]	transfer-encoding:chunked
+[10:04:36]	connection:close
+[10:04:36]	content-type:application/json; charset=utf-8
+[10:04:36]	server:Kestrel
+[10:04:36]result for current request:
+[10:04:36]{"username":"user2","password":"hehe123"}
+
+[10:04:58]request url:http://localhost:5000/api/APIForPy/
+[10:04:58]parameters:{"username":"user1","password":"hehe123"}
+[10:04:58]http status:200  spend time:0.00345802307129 s
+[10:04:58]request-headers:
+[10:04:58]	Host:localhost:5000
+[10:04:58]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[10:04:58]	Content-type:application/json
+[10:04:58]	Connection:Keep-Alive
+[10:04:58]	Cache-control:no-cache
+[10:04:58]response-headers:
+[10:04:58]	date:Sat, 05 May 2018 02:04:58 GMT
+[10:04:58]	transfer-encoding:chunked
+[10:04:58]	connection:close
+[10:04:58]	content-type:application/json; charset=utf-8
+[10:04:58]	server:Kestrel
+[10:04:58]result:
+[10:04:58]{"username":"user1","password":"hehe123"}
+
+[10:04:58]parameters:{"username":"user2","password":"hehe123"}
+[10:04:58]http status:200  spend time:0.00143098831177 s
+[10:04:58]request-headers:
+[10:04:58]	Host:localhost:5000
+[10:04:58]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[10:04:58]	Content-type:application/json
+[10:04:58]	Connection:Keep-Alive
+[10:04:58]	Cache-control:no-cache
+[10:04:58]response-headers:
+[10:04:58]	date:Sat, 05 May 2018 02:04:58 GMT
+[10:04:58]	transfer-encoding:chunked
+[10:04:58]	connection:close
+[10:04:58]	content-type:application/json; charset=utf-8
+[10:04:58]	server:Kestrel
+[10:04:58]result:
+[10:04:58]{"username":"user2","password":"hehe123"}
+
+[10:05:16]request url:http://localhost:5000/api/APIForPy/
+[10:05:16]parameters:{"username":"user1","password":"hehe123"}
+[10:05:16]http status:200  spend time:0.00418186187744 s
+[10:05:16]request-headers:
+[10:05:16]	Host:localhost:5000
+[10:05:16]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[10:05:16]	Content-type:application/json
+[10:05:16]	Connection:Keep-Alive
+[10:05:16]	Cache-control:no-cache
+[10:05:16]response-headers:
+[10:05:16]	date:Sat, 05 May 2018 02:05:16 GMT
+[10:05:16]	transfer-encoding:chunked
+[10:05:16]	connection:close
+[10:05:16]	content-type:application/json; charset=utf-8
+[10:05:16]	server:Kestrel
+[10:05:16]response:
+[10:05:16]{"username":"user1","password":"hehe123"}
+
+[10:05:16]parameters:{"username":"user2","password":"hehe123"}
+[10:05:16]http status:200  spend time:0.00172996520996 s
+[10:05:16]request-headers:
+[10:05:16]	Host:localhost:5000
+[10:05:16]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[10:05:16]	Content-type:application/json
+[10:05:16]	Connection:Keep-Alive
+[10:05:16]	Cache-control:no-cache
+[10:05:16]response-headers:
+[10:05:16]	date:Sat, 05 May 2018 02:05:16 GMT
+[10:05:16]	transfer-encoding:chunked
+[10:05:16]	connection:close
+[10:05:16]	content-type:application/json; charset=utf-8
+[10:05:16]	server:Kestrel
+[10:05:16]response:
+[10:05:16]{"username":"user2","password":"hehe123"}
+
+[2018-05-05 10:26:06]request url:http://localhost:5000/api/APIForPy/
+[2018-05-05 10:26:06]parameters:{"username":"user1","password":"hehe123"}
+[2018-05-05 10:26:06]http status:200  spend time:0.00332093238831 s
+[2018-05-05 10:26:06]request-headers:
+[2018-05-05 10:26:06]	Host:localhost:5000
+[2018-05-05 10:26:06]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 10:26:06]	Content-type:application/json
+[2018-05-05 10:26:06]	Connection:Keep-Alive
+[2018-05-05 10:26:06]	Cache-control:no-cache
+[2018-05-05 10:26:06]response-headers:
+[2018-05-05 10:26:06]	date:Sat, 05 May 2018 02:26:05 GMT
+[2018-05-05 10:26:06]	transfer-encoding:chunked
+[2018-05-05 10:26:06]	connection:close
+[2018-05-05 10:26:06]	content-type:application/json; charset=utf-8
+[2018-05-05 10:26:06]	server:Kestrel
+[2018-05-05 10:26:06]response:
+[2018-05-05 10:26:06]{"username":"user1","password":"hehe123"}
+
+[2018-05-05 10:26:06]parameters:{"username":"user2","password":"hehe123"}
+[2018-05-05 10:26:06]http status:200  spend time:0.00142002105713 s
+[2018-05-05 10:26:06]request-headers:
+[2018-05-05 10:26:06]	Host:localhost:5000
+[2018-05-05 10:26:06]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 10:26:06]	Content-type:application/json
+[2018-05-05 10:26:06]	Connection:Keep-Alive
+[2018-05-05 10:26:06]	Cache-control:no-cache
+[2018-05-05 10:26:06]response-headers:
+[2018-05-05 10:26:06]	date:Sat, 05 May 2018 02:26:05 GMT
+[2018-05-05 10:26:06]	transfer-encoding:chunked
+[2018-05-05 10:26:06]	connection:close
+[2018-05-05 10:26:06]	content-type:application/json; charset=utf-8
+[2018-05-05 10:26:06]	server:Kestrel
+[2018-05-05 10:26:06]response:
+[2018-05-05 10:26:06]{"username":"user2","password":"hehe123"}
+
+[2018-05-05 13:10:10]request url:http://localhost:5000/api/APIForPy/
+[2018-05-05 13:10:10]parameters:{"username":"user1","password":"hehe123"}
+[2018-05-05 13:10:10]http status:200  spend time:0.00338101387024 s
+[2018-05-05 13:10:10]request-headers:
+[2018-05-05 13:10:10]	Host:localhost:5000
+[2018-05-05 13:10:10]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:10:10]	Content-type:application/json
+[2018-05-05 13:10:10]	Connection:Keep-Alive
+[2018-05-05 13:10:10]	Cache-control:no-cache
+[2018-05-05 13:10:10]response-headers:
+[2018-05-05 13:10:10]	date:Sat, 05 May 2018 05:10:10 GMT
+[2018-05-05 13:10:10]	transfer-encoding:chunked
+[2018-05-05 13:10:10]	connection:close
+[2018-05-05 13:10:10]	content-type:application/json; charset=utf-8
+[2018-05-05 13:10:10]	server:Kestrel
+[2018-05-05 13:10:10]response:
+[2018-05-05 13:10:10]{"username":"user1","password":"hehe123"}
+
+[2018-05-05 13:10:10]parameters:{"username":"user2","password":"hehe123"}
+[2018-05-05 13:10:10]http status:200  spend time:0.0020489692688 s
+[2018-05-05 13:10:10]request-headers:
+[2018-05-05 13:10:10]	Host:localhost:5000
+[2018-05-05 13:10:10]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:10:10]	Content-type:application/json
+[2018-05-05 13:10:10]	Connection:Keep-Alive
+[2018-05-05 13:10:10]	Cache-control:no-cache
+[2018-05-05 13:10:10]response-headers:
+[2018-05-05 13:10:10]	date:Sat, 05 May 2018 05:10:10 GMT
+[2018-05-05 13:10:10]	transfer-encoding:chunked
+[2018-05-05 13:10:10]	connection:close
+[2018-05-05 13:10:10]	content-type:application/json; charset=utf-8
+[2018-05-05 13:10:10]	server:Kestrel
+[2018-05-05 13:10:10]response:
+[2018-05-05 13:10:10]{"username":"user2","password":"hehe123"}
+
+[2018-05-05 13:24:41]current request url:http://localhost:5000/api/APIForPy/Get/
+
+[2018-05-05 13:24:41]parameters:None
+[2018-05-05 13:24:41]http status:200  spend time:0.199030160904 s
+[2018-05-05 13:24:41]request-headers:
+[2018-05-05 13:24:41]	Host:localhost:5000
+[2018-05-05 13:24:41]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:24:41]	Content-type:application/json
+[2018-05-05 13:24:41]	Connection:Keep-Alive
+[2018-05-05 13:24:41]	Cache-control:no-cache
+[2018-05-05 13:24:41]response-headers:
+[2018-05-05 13:24:41]	date:Sat, 05 May 2018 05:24:41 GMT
+[2018-05-05 13:24:41]	transfer-encoding:chunked
+[2018-05-05 13:24:41]	connection:close
+[2018-05-05 13:24:41]	content-type:application/json; charset=utf-8
+[2018-05-05 13:24:41]	server:Kestrel
+[2018-05-05 13:24:41]response:
+[2018-05-05 13:24:41]["Hello","World"]
+
+[2018-05-05 13:24:41]current request url:http://localhost:5000/api/APIForPy/Get/15
+
+[2018-05-05 13:24:41]parameters:None
+[2018-05-05 13:24:41]HTTP Error 404: Not Found
+[2018-05-05 13:25:44]current request url:http://localhost:5000/api/APIForPy/Get/
+
+[2018-05-05 13:25:44]parameters:None
+[2018-05-05 13:25:44]http status:200  spend time:0.00273990631104 s
+[2018-05-05 13:25:44]request-headers:
+[2018-05-05 13:25:44]	Host:localhost:5000
+[2018-05-05 13:25:44]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:25:44]	Content-type:application/json
+[2018-05-05 13:25:44]	Connection:Keep-Alive
+[2018-05-05 13:25:44]	Cache-control:no-cache
+[2018-05-05 13:25:44]response-headers:
+[2018-05-05 13:25:44]	date:Sat, 05 May 2018 05:25:43 GMT
+[2018-05-05 13:25:44]	transfer-encoding:chunked
+[2018-05-05 13:25:44]	connection:close
+[2018-05-05 13:25:44]	content-type:application/json; charset=utf-8
+[2018-05-05 13:25:44]	server:Kestrel
+[2018-05-05 13:25:44]response:
+[2018-05-05 13:25:44]["Hello","World"]
+
+[2018-05-05 13:25:44]current request url:http://localhost:5000/api/APIForPy/Get/15
+
+[2018-05-05 13:25:44]parameters:None
+[2018-05-05 13:25:44]HTTP Error 404: Not Found
+[2018-05-05 13:29:24]current request url:http://localhost:5000/api/APIForPy/Get/
+
+[2018-05-05 13:29:24]parameters:None
+[2018-05-05 13:29:24]http status:200  spend time:0.00259804725647 s
+[2018-05-05 13:29:24]request-headers:
+[2018-05-05 13:29:24]	Host:localhost:5000
+[2018-05-05 13:29:24]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:29:24]	Content-type:application/json
+[2018-05-05 13:29:24]	Connection:Keep-Alive
+[2018-05-05 13:29:24]	Cache-control:no-cache
+[2018-05-05 13:29:24]response-headers:
+[2018-05-05 13:29:24]	date:Sat, 05 May 2018 05:29:23 GMT
+[2018-05-05 13:29:24]	transfer-encoding:chunked
+[2018-05-05 13:29:24]	connection:close
+[2018-05-05 13:29:24]	content-type:application/json; charset=utf-8
+[2018-05-05 13:29:24]	server:Kestrel
+[2018-05-05 13:29:24]response:
+[2018-05-05 13:29:24]["Hello","World"]
+
+[2018-05-05 13:29:24]current request url:http://localhost:5000/api/APIForPy/Get/15
+
+[2018-05-05 13:29:24]parameters:None
+[2018-05-05 13:29:24]HTTP Error 404: Not Found
+[2018-05-05 13:29:24]ignored invalid url : heheheeeee
+
+[2018-05-05 13:29:24]current request url:http://localhost:5000/api/APIForPy/PostJson/
+[2018-05-05 13:29:24]parameters:{"username":"user1","password":"hehe123"}
+[2018-05-05 13:29:24]http status:200  spend time:0.0762369632721 s
+[2018-05-05 13:29:24]request-headers:
+[2018-05-05 13:29:24]	Host:localhost:5000
+[2018-05-05 13:29:24]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:29:24]	Content-type:application/json
+[2018-05-05 13:29:24]	Connection:Keep-Alive
+[2018-05-05 13:29:24]	Cache-control:no-cache
+[2018-05-05 13:29:24]response-headers:
+[2018-05-05 13:29:24]	date:Sat, 05 May 2018 05:29:24 GMT
+[2018-05-05 13:29:24]	transfer-encoding:chunked
+[2018-05-05 13:29:24]	connection:close
+[2018-05-05 13:29:24]	content-type:application/json; charset=utf-8
+[2018-05-05 13:29:24]	server:Kestrel
+[2018-05-05 13:29:24]response:
+[2018-05-05 13:29:24]{"username":"user1","password":"hehe123"}
+
+[2018-05-05 13:29:24]current request url:http://localhost:5000/api/APIForPy/PostJson/
+[2018-05-05 13:29:24]parameters:{"username":"user2","password":"hehe123"}
+[2018-05-05 13:29:24]http status:200  spend time:0.00219416618347 s
+[2018-05-05 13:29:24]request-headers:
+[2018-05-05 13:29:24]	Host:localhost:5000
+[2018-05-05 13:29:24]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:29:24]	Content-type:application/json
+[2018-05-05 13:29:24]	Connection:Keep-Alive
+[2018-05-05 13:29:24]	Cache-control:no-cache
+[2018-05-05 13:29:24]response-headers:
+[2018-05-05 13:29:24]	date:Sat, 05 May 2018 05:29:24 GMT
+[2018-05-05 13:29:24]	transfer-encoding:chunked
+[2018-05-05 13:29:24]	connection:close
+[2018-05-05 13:29:24]	content-type:application/json; charset=utf-8
+[2018-05-05 13:29:24]	server:Kestrel
+[2018-05-05 13:29:24]response:
+[2018-05-05 13:29:24]{"username":"user2","password":"hehe123"}
+
+[2018-05-05 13:31:12]current request url:http://localhost:5000/api/APIForPy/Get/
+
+[2018-05-05 13:31:12]http status:200  spend time:0.00418090820312 s
+[2018-05-05 13:31:12]parameters:None
+[2018-05-05 13:31:12]request-headers:
+[2018-05-05 13:31:12]	Host:localhost:5000
+[2018-05-05 13:31:12]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:31:12]	Content-type:application/json
+[2018-05-05 13:31:12]	Connection:Keep-Alive
+[2018-05-05 13:31:12]	Cache-control:no-cache
+[2018-05-05 13:31:12]response-headers:
+[2018-05-05 13:31:12]	date:Sat, 05 May 2018 05:31:12 GMT
+[2018-05-05 13:31:12]	transfer-encoding:chunked
+[2018-05-05 13:31:12]	connection:close
+[2018-05-05 13:31:12]	content-type:application/json; charset=utf-8
+[2018-05-05 13:31:12]	server:Kestrel
+[2018-05-05 13:31:12]response:
+[2018-05-05 13:31:12]["Hello","World"]
+
+[2018-05-05 13:31:12]current request url:http://localhost:5000/api/APIForPy/Get/15
+
+[2018-05-05 13:31:12]HTTP Error 404: Not Found
+[2018-05-05 13:31:12]ignored invalid url : heheheeeee
+
+[2018-05-05 13:31:12]current request url:http://localhost:5000/api/APIForPy/PostJson/
+[2018-05-05 13:31:12]http status:200  spend time:0.00184893608093 s
+[2018-05-05 13:31:12]parameters:{"username":"user1","password":"hehe123"}
+[2018-05-05 13:31:12]request-headers:
+[2018-05-05 13:31:12]	Host:localhost:5000
+[2018-05-05 13:31:12]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:31:12]	Content-type:application/json
+[2018-05-05 13:31:12]	Connection:Keep-Alive
+[2018-05-05 13:31:12]	Cache-control:no-cache
+[2018-05-05 13:31:12]response-headers:
+[2018-05-05 13:31:12]	date:Sat, 05 May 2018 05:31:12 GMT
+[2018-05-05 13:31:12]	transfer-encoding:chunked
+[2018-05-05 13:31:12]	connection:close
+[2018-05-05 13:31:12]	content-type:application/json; charset=utf-8
+[2018-05-05 13:31:12]	server:Kestrel
+[2018-05-05 13:31:12]response:
+[2018-05-05 13:31:12]{"username":"user1","password":"hehe123"}
+
+[2018-05-05 13:31:12]current request url:http://localhost:5000/api/APIForPy/PostJson/
+[2018-05-05 13:31:12]http status:200  spend time:0.00156307220459 s
+[2018-05-05 13:31:12]parameters:{"username":"user2","password":"hehe123"}
+[2018-05-05 13:31:12]request-headers:
+[2018-05-05 13:31:12]	Host:localhost:5000
+[2018-05-05 13:31:12]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:31:12]	Content-type:application/json
+[2018-05-05 13:31:12]	Connection:Keep-Alive
+[2018-05-05 13:31:12]	Cache-control:no-cache
+[2018-05-05 13:31:12]response-headers:
+[2018-05-05 13:31:12]	date:Sat, 05 May 2018 05:31:12 GMT
+[2018-05-05 13:31:12]	transfer-encoding:chunked
+[2018-05-05 13:31:12]	connection:close
+[2018-05-05 13:31:12]	content-type:application/json; charset=utf-8
+[2018-05-05 13:31:12]	server:Kestrel
+[2018-05-05 13:31:12]response:
+[2018-05-05 13:31:12]{"username":"user2","password":"hehe123"}
+
+[2018-05-05 13:32:10]current request url:http://localhost:5000/api/APIForPy/Get/
+
+[2018-05-05 13:32:10]http status:200  spend time:0.00281190872192 s
+[2018-05-05 13:32:10]parameters:None
+[2018-05-05 13:32:10]request-headers:
+[2018-05-05 13:32:10]	Host:localhost:5000
+[2018-05-05 13:32:10]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:32:10]	Content-type:application/json
+[2018-05-05 13:32:10]	Connection:Keep-Alive
+[2018-05-05 13:32:10]	Cache-control:no-cache
+[2018-05-05 13:32:10]response-headers:
+[2018-05-05 13:32:10]	date:Sat, 05 May 2018 05:32:09 GMT
+[2018-05-05 13:32:10]	transfer-encoding:chunked
+[2018-05-05 13:32:10]	connection:close
+[2018-05-05 13:32:10]	content-type:application/json; charset=utf-8
+[2018-05-05 13:32:10]	server:Kestrel
+[2018-05-05 13:32:10]response:
+[2018-05-05 13:32:10]["Hello","World"]
+
+[2018-05-05 13:32:10]current request url:http://localhost:5000/api/APIForPy/Get/15
+
+[2018-05-05 13:32:10]HTTP Error 404: Not Found
+[2018-05-05 13:32:10]current request url:heheheeeee
+
+[2018-05-05 13:32:10]ignored invalid url : heheheeeee
+
+[2018-05-05 13:32:10]current request url:http://localhost:5000/api/APIForPy/PostJson/
+[2018-05-05 13:32:10]http status:200  spend time:0.00132298469543 s
+[2018-05-05 13:32:10]parameters:{"username":"user1","password":"hehe123"}
+[2018-05-05 13:32:10]request-headers:
+[2018-05-05 13:32:10]	Host:localhost:5000
+[2018-05-05 13:32:10]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:32:10]	Content-type:application/json
+[2018-05-05 13:32:10]	Connection:Keep-Alive
+[2018-05-05 13:32:10]	Cache-control:no-cache
+[2018-05-05 13:32:10]response-headers:
+[2018-05-05 13:32:10]	date:Sat, 05 May 2018 05:32:09 GMT
+[2018-05-05 13:32:10]	transfer-encoding:chunked
+[2018-05-05 13:32:10]	connection:close
+[2018-05-05 13:32:10]	content-type:application/json; charset=utf-8
+[2018-05-05 13:32:10]	server:Kestrel
+[2018-05-05 13:32:10]response:
+[2018-05-05 13:32:10]{"username":"user1","password":"hehe123"}
+
+[2018-05-05 13:32:10]current request url:http://localhost:5000/api/APIForPy/PostJson/
+[2018-05-05 13:32:10]http status:200  spend time:0.00147700309753 s
+[2018-05-05 13:32:10]parameters:{"username":"user2","password":"hehe123"}
+[2018-05-05 13:32:10]request-headers:
+[2018-05-05 13:32:10]	Host:localhost:5000
+[2018-05-05 13:32:10]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:32:10]	Content-type:application/json
+[2018-05-05 13:32:10]	Connection:Keep-Alive
+[2018-05-05 13:32:10]	Cache-control:no-cache
+[2018-05-05 13:32:10]response-headers:
+[2018-05-05 13:32:10]	date:Sat, 05 May 2018 05:32:09 GMT
+[2018-05-05 13:32:10]	transfer-encoding:chunked
+[2018-05-05 13:32:10]	connection:close
+[2018-05-05 13:32:10]	content-type:application/json; charset=utf-8
+[2018-05-05 13:32:10]	server:Kestrel
+[2018-05-05 13:32:10]response:
+[2018-05-05 13:32:10]{"username":"user2","password":"hehe123"}
+
+[2018-05-05 13:32:34]current request url:http://localhost:5000/api/APIForPy/Get/
+
+[2018-05-05 13:32:34]http status:200  spend time:0.00255298614502 s
+[2018-05-05 13:32:34]parameters:None
+[2018-05-05 13:32:34]request-headers:
+[2018-05-05 13:32:34]	Host:localhost:5000
+[2018-05-05 13:32:34]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:32:34]	Content-type:application/json
+[2018-05-05 13:32:34]	Connection:Keep-Alive
+[2018-05-05 13:32:34]	Cache-control:no-cache
+[2018-05-05 13:32:34]response-headers:
+[2018-05-05 13:32:34]	date:Sat, 05 May 2018 05:32:34 GMT
+[2018-05-05 13:32:34]	transfer-encoding:chunked
+[2018-05-05 13:32:34]	connection:close
+[2018-05-05 13:32:34]	content-type:application/json; charset=utf-8
+[2018-05-05 13:32:34]	server:Kestrel
+[2018-05-05 13:32:34]response:
+[2018-05-05 13:32:34]["Hello","World"]
+
+[2018-05-05 13:32:34]current request url:http://localhost:5000/api/APIForPy/Get/15
+
+[2018-05-05 13:32:34]HTTP Error 404: Not Found
+
+[2018-05-05 13:32:34]current request url:heheheeeee
+
+[2018-05-05 13:32:34]ignored invalid url : heheheeeee
+
+[2018-05-05 13:32:34]current request url:http://localhost:5000/api/APIForPy/PostJson/
+[2018-05-05 13:32:34]http status:200  spend time:0.00119495391846 s
+[2018-05-05 13:32:34]parameters:{"username":"user1","password":"hehe123"}
+[2018-05-05 13:32:34]request-headers:
+[2018-05-05 13:32:34]	Host:localhost:5000
+[2018-05-05 13:32:34]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:32:34]	Content-type:application/json
+[2018-05-05 13:32:34]	Connection:Keep-Alive
+[2018-05-05 13:32:34]	Cache-control:no-cache
+[2018-05-05 13:32:34]response-headers:
+[2018-05-05 13:32:34]	date:Sat, 05 May 2018 05:32:34 GMT
+[2018-05-05 13:32:34]	transfer-encoding:chunked
+[2018-05-05 13:32:34]	connection:close
+[2018-05-05 13:32:34]	content-type:application/json; charset=utf-8
+[2018-05-05 13:32:34]	server:Kestrel
+[2018-05-05 13:32:34]response:
+[2018-05-05 13:32:34]{"username":"user1","password":"hehe123"}
+
+[2018-05-05 13:32:34]current request url:http://localhost:5000/api/APIForPy/PostJson/
+[2018-05-05 13:32:34]http status:200  spend time:0.00170707702637 s
+[2018-05-05 13:32:34]parameters:{"username":"user2","password":"hehe123"}
+[2018-05-05 13:32:34]request-headers:
+[2018-05-05 13:32:34]	Host:localhost:5000
+[2018-05-05 13:32:34]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:32:34]	Content-type:application/json
+[2018-05-05 13:32:34]	Connection:Keep-Alive
+[2018-05-05 13:32:34]	Cache-control:no-cache
+[2018-05-05 13:32:34]response-headers:
+[2018-05-05 13:32:34]	date:Sat, 05 May 2018 05:32:34 GMT
+[2018-05-05 13:32:34]	transfer-encoding:chunked
+[2018-05-05 13:32:34]	connection:close
+[2018-05-05 13:32:34]	content-type:application/json; charset=utf-8
+[2018-05-05 13:32:34]	server:Kestrel
+[2018-05-05 13:32:34]response:
+[2018-05-05 13:32:34]{"username":"user2","password":"hehe123"}
+
+[2018-05-05 13:33:27]current request url:http://localhost:5000/api/APIForPy/Get/
+
+[2018-05-05 13:33:27]http status:200  spend time:0.00273990631104 s
+[2018-05-05 13:33:27]parameters:None
+[2018-05-05 13:33:27]request-headers:
+[2018-05-05 13:33:27]	Host:localhost:5000
+[2018-05-05 13:33:27]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:33:27]	Content-type:application/json
+[2018-05-05 13:33:27]	Connection:Keep-Alive
+[2018-05-05 13:33:27]	Cache-control:no-cache
+[2018-05-05 13:33:27]response-headers:
+[2018-05-05 13:33:27]	date:Sat, 05 May 2018 05:33:27 GMT
+[2018-05-05 13:33:27]	transfer-encoding:chunked
+[2018-05-05 13:33:27]	connection:close
+[2018-05-05 13:33:27]	content-type:application/json; charset=utf-8
+[2018-05-05 13:33:27]	server:Kestrel
+[2018-05-05 13:33:27]response:
+[2018-05-05 13:33:27]["Hello","World"]
+
+[2018-05-05 13:33:27]current request url:http://localhost:5000/api/APIForPy/Get/15
+
+[2018-05-05 13:33:27]HTTP Error 404: Not Found
+
+[2018-05-05 13:33:27]current request url:heheheeeee
+
+[2018-05-05 13:33:27]ignored invalid url : heheheeeee
+
+[2018-05-05 13:33:27]current request url:http://localhost:5000/api/APIForPy/PostJson/
+[2018-05-05 13:33:27]http status:200  spend time:0.0013370513916 s
+[2018-05-05 13:33:27]parameters:{"username":"user1","password":"hehe123"}
+[2018-05-05 13:33:27]request-headers:
+[2018-05-05 13:33:27]	Host:localhost:5000
+[2018-05-05 13:33:27]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:33:27]	Content-type:application/json
+[2018-05-05 13:33:27]	Connection:Keep-Alive
+[2018-05-05 13:33:27]	Cache-control:no-cache
+[2018-05-05 13:33:27]response-headers:
+[2018-05-05 13:33:27]	date:Sat, 05 May 2018 05:33:27 GMT
+[2018-05-05 13:33:27]	transfer-encoding:chunked
+[2018-05-05 13:33:27]	connection:close
+[2018-05-05 13:33:27]	content-type:application/json; charset=utf-8
+[2018-05-05 13:33:27]	server:Kestrel
+[2018-05-05 13:33:27]response:
+[2018-05-05 13:33:27]{"username":"user1","password":"hehe123"}
+
+[2018-05-05 13:33:27]current request url:http://localhost:5000/api/APIForPy/PostJson/
+[2018-05-05 13:33:27]http status:200  spend time:0.00161504745483 s
+[2018-05-05 13:33:27]parameters:{"username":"user2","password":"hehe123"}
+[2018-05-05 13:33:27]request-headers:
+[2018-05-05 13:33:27]	Host:localhost:5000
+[2018-05-05 13:33:27]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:33:27]	Content-type:application/json
+[2018-05-05 13:33:27]	Connection:Keep-Alive
+[2018-05-05 13:33:27]	Cache-control:no-cache
+[2018-05-05 13:33:27]response-headers:
+[2018-05-05 13:33:27]	date:Sat, 05 May 2018 05:33:27 GMT
+[2018-05-05 13:33:27]	transfer-encoding:chunked
+[2018-05-05 13:33:27]	connection:close
+[2018-05-05 13:33:27]	content-type:application/json; charset=utf-8
+[2018-05-05 13:33:27]	server:Kestrel
+[2018-05-05 13:33:27]response:
+[2018-05-05 13:33:27]{"username":"user2","password":"hehe123"}
+
+[2018-05-05 13:33:54]current request url:http://localhost:5000/api/APIForPy/Get/
+
+[2018-05-05 13:33:54]http status:200  spend time:0.00275206565857 s
+[2018-05-05 13:33:54]parameters:None
+[2018-05-05 13:33:54]request-headers:
+[2018-05-05 13:33:54]	Host:localhost:5000
+[2018-05-05 13:33:54]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:33:54]	Content-type:application/json
+[2018-05-05 13:33:54]	Connection:Keep-Alive
+[2018-05-05 13:33:54]	Cache-control:no-cache
+[2018-05-05 13:33:54]response-headers:
+[2018-05-05 13:33:54]	date:Sat, 05 May 2018 05:33:54 GMT
+[2018-05-05 13:33:54]	transfer-encoding:chunked
+[2018-05-05 13:33:54]	connection:close
+[2018-05-05 13:33:54]	content-type:application/json; charset=utf-8
+[2018-05-05 13:33:54]	server:Kestrel
+[2018-05-05 13:33:54]response:
+[2018-05-05 13:33:54]["Hello","World"]
+
+[2018-05-05 13:33:54]current request url:http://localhost:5000/api/APIForPy/Get/15
+
+[2018-05-05 13:33:54]HTTP Error 404: Not Found
+
+[2018-05-05 13:33:54]current request url:heheheeeee
+
+[2018-05-05 13:33:54]ignored invalid url : heheheeeee
+
+[2018-05-05 13:33:54]current request url:http://localhost:5000/api/APIForPy/PostJson/
+[2018-05-05 13:33:54]http status:200  spend time:0.00143098831177 s
+[2018-05-05 13:33:54]parameters:{"username":"user1","password":"hehe123"}
+[2018-05-05 13:33:54]request-headers:
+[2018-05-05 13:33:54]	Host:localhost:5000
+[2018-05-05 13:33:54]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:33:54]	Content-type:application/json
+[2018-05-05 13:33:54]	Connection:Keep-Alive
+[2018-05-05 13:33:54]	Cache-control:no-cache
+[2018-05-05 13:33:54]response-headers:
+[2018-05-05 13:33:54]	date:Sat, 05 May 2018 05:33:54 GMT
+[2018-05-05 13:33:54]	transfer-encoding:chunked
+[2018-05-05 13:33:54]	connection:close
+[2018-05-05 13:33:54]	content-type:application/json; charset=utf-8
+[2018-05-05 13:33:54]	server:Kestrel
+[2018-05-05 13:33:54]response:
+[2018-05-05 13:33:54]{"username":"user1","password":"hehe123"}
+
+[2018-05-05 13:33:54]current request url:http://localhost:5000/api/APIForPy/PostJson/
+[2018-05-05 13:33:54]http status:200  spend time:0.00184798240662 s
+[2018-05-05 13:33:54]parameters:{"username":"user2","password":"hehe123"}
+[2018-05-05 13:33:54]request-headers:
+[2018-05-05 13:33:54]	Host:localhost:5000
+[2018-05-05 13:33:54]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:33:54]	Content-type:application/json
+[2018-05-05 13:33:54]	Connection:Keep-Alive
+[2018-05-05 13:33:54]	Cache-control:no-cache
+[2018-05-05 13:33:54]response-headers:
+[2018-05-05 13:33:54]	date:Sat, 05 May 2018 05:33:54 GMT
+[2018-05-05 13:33:54]	transfer-encoding:chunked
+[2018-05-05 13:33:54]	connection:close
+[2018-05-05 13:33:54]	content-type:application/json; charset=utf-8
+[2018-05-05 13:33:54]	server:Kestrel
+[2018-05-05 13:33:54]response:
+[2018-05-05 13:33:54]{"username":"user2","password":"hehe123"}
+
+[2018-05-05 13:35:02]current request url:http://localhost:5000/api/APIForPy/Get/
+
+[2018-05-05 13:35:02]http status:200  spend time:0.00310516357422 s
+[2018-05-05 13:35:02]parameters:None
+[2018-05-05 13:35:02]request-headers:
+[2018-05-05 13:35:02]	Host:localhost:5000
+[2018-05-05 13:35:02]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:35:02]	Content-type:application/json
+[2018-05-05 13:35:02]	Connection:Keep-Alive
+[2018-05-05 13:35:02]	Cache-control:no-cache
+[2018-05-05 13:35:02]response-headers:
+[2018-05-05 13:35:02]	date:Sat, 05 May 2018 05:35:02 GMT
+[2018-05-05 13:35:02]	transfer-encoding:chunked
+[2018-05-05 13:35:02]	connection:close
+[2018-05-05 13:35:02]	content-type:application/json; charset=utf-8
+[2018-05-05 13:35:02]	server:Kestrel
+[2018-05-05 13:35:02]response:
+[2018-05-05 13:35:02]["Hello","World"]
+
+[2018-05-05 13:35:02]current request url:http://localhost:5000/api/APIForPy/GetId/15
+
+[2018-05-05 13:35:02]http status:200  spend time:0.00514197349548 s
+[2018-05-05 13:35:02]parameters:None
+[2018-05-05 13:35:02]request-headers:
+[2018-05-05 13:35:02]	Host:localhost:5000
+[2018-05-05 13:35:02]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:35:02]	Content-type:application/json
+[2018-05-05 13:35:02]	Connection:Keep-Alive
+[2018-05-05 13:35:02]	Cache-control:no-cache
+[2018-05-05 13:35:02]response-headers:
+[2018-05-05 13:35:02]	date:Sat, 05 May 2018 05:35:02 GMT
+[2018-05-05 13:35:02]	transfer-encoding:chunked
+[2018-05-05 13:35:02]	connection:close
+[2018-05-05 13:35:02]	content-type:text/plain; charset=utf-8
+[2018-05-05 13:35:02]	server:Kestrel
+[2018-05-05 13:35:02]response:
+[2018-05-05 13:35:02]15
+
+[2018-05-05 13:35:02]current request url:heheheeeee
+
+[2018-05-05 13:35:02]ignored invalid url : heheheeeee
+
+[2018-05-05 13:35:02]current request url:http://localhost:5000/api/APIForPy/PostJson/
+[2018-05-05 13:35:02]http status:200  spend time:0.00127196311951 s
+[2018-05-05 13:35:02]parameters:{"username":"user1","password":"hehe123"}
+[2018-05-05 13:35:02]request-headers:
+[2018-05-05 13:35:02]	Host:localhost:5000
+[2018-05-05 13:35:02]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:35:02]	Content-type:application/json
+[2018-05-05 13:35:02]	Connection:Keep-Alive
+[2018-05-05 13:35:02]	Cache-control:no-cache
+[2018-05-05 13:35:02]response-headers:
+[2018-05-05 13:35:02]	date:Sat, 05 May 2018 05:35:02 GMT
+[2018-05-05 13:35:02]	transfer-encoding:chunked
+[2018-05-05 13:35:02]	connection:close
+[2018-05-05 13:35:02]	content-type:application/json; charset=utf-8
+[2018-05-05 13:35:02]	server:Kestrel
+[2018-05-05 13:35:02]response:
+[2018-05-05 13:35:02]{"username":"user1","password":"hehe123"}
+
+[2018-05-05 13:35:02]current request url:http://localhost:5000/api/APIForPy/PostJson/
+[2018-05-05 13:35:02]http status:200  spend time:0.00112795829773 s
+[2018-05-05 13:35:02]parameters:{"username":"user2","password":"hehe123"}
+[2018-05-05 13:35:02]request-headers:
+[2018-05-05 13:35:02]	Host:localhost:5000
+[2018-05-05 13:35:02]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:35:02]	Content-type:application/json
+[2018-05-05 13:35:02]	Connection:Keep-Alive
+[2018-05-05 13:35:02]	Cache-control:no-cache
+[2018-05-05 13:35:02]response-headers:
+[2018-05-05 13:35:02]	date:Sat, 05 May 2018 05:35:02 GMT
+[2018-05-05 13:35:02]	transfer-encoding:chunked
+[2018-05-05 13:35:02]	connection:close
+[2018-05-05 13:35:02]	content-type:application/json; charset=utf-8
+[2018-05-05 13:35:02]	server:Kestrel
+[2018-05-05 13:35:02]response:
+[2018-05-05 13:35:02]{"username":"user2","password":"hehe123"}
+
+[2018-05-05 13:40:58]current request url:http://localhost:5000/api/APIForPy/Get/
+
+[2018-05-05 13:40:58]http status:200  spend time:0.00318002700806 s
+[2018-05-05 13:40:58]parameters:None
+[2018-05-05 13:40:58]request-headers:
+[2018-05-05 13:40:58]	Host:localhost:5000
+[2018-05-05 13:40:58]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:40:58]	Content-type:application/json
+[2018-05-05 13:40:58]	Connection:Keep-Alive
+[2018-05-05 13:40:58]	Cache-control:no-cache
+[2018-05-05 13:40:58]response-headers:
+[2018-05-05 13:40:58]	date:Sat, 05 May 2018 05:40:58 GMT
+[2018-05-05 13:40:58]	transfer-encoding:chunked
+[2018-05-05 13:40:58]	connection:close
+[2018-05-05 13:40:58]	content-type:application/json; charset=utf-8
+[2018-05-05 13:40:58]	server:Kestrel
+[2018-05-05 13:40:58]response:
+[2018-05-05 13:40:58]["Hello","World"]
+
+[2018-05-05 13:40:58]current request url:http://localhost:5000/api/APIForPy/GetId/15
+
+[2018-05-05 13:40:58]http status:200  spend time:0.00108909606934 s
+[2018-05-05 13:40:58]parameters:None
+[2018-05-05 13:40:58]request-headers:
+[2018-05-05 13:40:58]	Host:localhost:5000
+[2018-05-05 13:40:58]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:40:58]	Content-type:application/json
+[2018-05-05 13:40:58]	Connection:Keep-Alive
+[2018-05-05 13:40:58]	Cache-control:no-cache
+[2018-05-05 13:40:58]response-headers:
+[2018-05-05 13:40:58]	date:Sat, 05 May 2018 05:40:58 GMT
+[2018-05-05 13:40:58]	transfer-encoding:chunked
+[2018-05-05 13:40:58]	connection:close
+[2018-05-05 13:40:58]	content-type:text/plain; charset=utf-8
+[2018-05-05 13:40:58]	server:Kestrel
+[2018-05-05 13:40:58]response:
+[2018-05-05 13:40:58]15
+
+[2018-05-05 13:40:58]current request url:heheheeeee
+
+[2018-05-05 13:40:58]ignored invalid url : heheheeeee
+
+[2018-05-05 13:40:58]current request url:http://localhost:5000/api/APIForPy/PostJson/
+[2018-05-05 13:40:58]http status:200  spend time:0.00121879577637 s
+[2018-05-05 13:40:58]parameters:{"username":"user1","password":"hehe123"}
+[2018-05-05 13:40:58]request-headers:
+[2018-05-05 13:40:58]	Host:localhost:5000
+[2018-05-05 13:40:58]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:40:58]	Content-type:application/json
+[2018-05-05 13:40:58]	Connection:Keep-Alive
+[2018-05-05 13:40:58]	Cache-control:no-cache
+[2018-05-05 13:40:58]response-headers:
+[2018-05-05 13:40:58]	date:Sat, 05 May 2018 05:40:58 GMT
+[2018-05-05 13:40:58]	transfer-encoding:chunked
+[2018-05-05 13:40:58]	connection:close
+[2018-05-05 13:40:58]	content-type:application/json; charset=utf-8
+[2018-05-05 13:40:58]	server:Kestrel
+[2018-05-05 13:40:58]response:
+[2018-05-05 13:40:58]{"username":"user1","password":"hehe123"}
+
+[2018-05-05 13:40:58]current request url:http://localhost:5000/api/APIForPy/PostJson/
+[2018-05-05 13:40:58]http status:200  spend time:0.00179314613342 s
+[2018-05-05 13:40:58]parameters:{"username":"user2","password":"hehe123"}
+[2018-05-05 13:40:58]request-headers:
+[2018-05-05 13:40:58]	Host:localhost:5000
+[2018-05-05 13:40:58]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[2018-05-05 13:40:58]	Content-type:application/json
+[2018-05-05 13:40:58]	Connection:Keep-Alive
+[2018-05-05 13:40:58]	Cache-control:no-cache
+[2018-05-05 13:40:58]response-headers:
+[2018-05-05 13:40:58]	date:Sat, 05 May 2018 05:40:58 GMT
+[2018-05-05 13:40:58]	transfer-encoding:chunked
+[2018-05-05 13:40:58]	connection:close
+[2018-05-05 13:40:58]	content-type:application/json; charset=utf-8
+[2018-05-05 13:40:58]	server:Kestrel
+[2018-05-05 13:40:58]response:
+[2018-05-05 13:40:58]{"username":"user2","password":"hehe123"}
+

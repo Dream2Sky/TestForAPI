@@ -1,0 +1,17 @@
+[09:32:31]request url:https://free-api.heweather.com/v5/weather
+[09:32:31]request-headers:
+[09:32:31]	Host:free-api.heweather.com
+[09:32:31]	User-agent:Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+[09:32:31]	Content-type:application/json
+[09:32:31]	Connection:Keep-Alive
+[09:32:31]	Cache-control:no-cache
+[09:32:31]response-headers:
+[09:32:31]	content-length:47
+[09:32:31]	server:nginx
+[09:32:31]	connection:close
+[09:32:31]	date:Fri, 04 May 2018 01:32:31 GMT
+[09:32:31]	access-control-allow-origin:*
+[09:32:31]	content-type:application/json;charset=UTF-8
+[09:32:31]result for current request:
+[09:32:31]{"HeWeather5":[{"status":"permission denied"}]}
+

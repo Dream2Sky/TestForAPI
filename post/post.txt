@@ -1,8 +1,12 @@
 {
   "PostData":[
     {
-      "API":"http://localhost:8081/data.json",
-      "Data":"{\"UserName\":\"user\",\"Password\":\"hehe123\"}"
+      "API":"http://localhost:5000/api/APIForPy/PostJson/",
+      "Data":"{\"username\":\"user1\",\"password\":\"hehe123\"}"
+    },
+    {
+      "API":"http://localhost:5000/api/APIForPy/PostJson/",
+      "Data":"{\"username\":\"user2\",\"password\":\"hehe123\"}"
     }
   ]
 }

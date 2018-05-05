@@ -10,7 +10,7 @@ STORAGETYPE = storageType.STDOUTPUT
 FILEPATH = ''
 
 def WriteLog(msg = '', logType = logType.INFO):
-    if msg.strip() == '':
+    if msg == '':
         log = '\n'
     else:
         log = '[%s]%s\n'%(dateHelper.GetLocalTime(), msg)

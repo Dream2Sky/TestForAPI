@@ -1,0 +1,4 @@
+http://localhost:5000/api/APIForPy/Get/
+http://localhost:5000/api/APIForPy/GetId/15
+heheheeeee
+http://localhost:5000/api/APIForPy/PostJson/
