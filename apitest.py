@@ -103,11 +103,6 @@ elif not url and batch:
 else:
     URLLIST.append(url)
 
-#判断URL是否合法
-# if re.match(URLPATTERN, url) is None:
-#     print u'不合法的URL链接'
-#     sys.exit()
-
 #判断是否是POST请求，并判断post文件是否可以访问，可以则读取里面的参数
 if postFile:
     ISPOST = True
