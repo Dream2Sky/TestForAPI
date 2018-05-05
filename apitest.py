@@ -133,12 +133,15 @@ if output:
     except IOError as e:
         log_utils.WriteLog(e,logType.ERROR)
         sys.exit()
-
+    
 for currentUrl in URLLIST:
-    newPostData = filter(lambda x:x['API']==currentUrl,POSTDATA['PostData'])
-    if not newPostData or len(newPostData)<=0:
-        invokeHttpRequest(currentUrl, None)
+    if ISPOST:
+        newPostData = filter(lambda x:x['API']==currentUrl,POSTDATA['PostData'])
+        if not newPostData or len(newPostData)<=0:
+            invokeHttpRequest(currentUrl, None)
+        else:
+            for data in newPostData:
+                invokeHttpRequest(currentUrl,data['Data'].encode('unicode-escape').decode('string-escape'))
     else:
-        for data in newPostData:
-            invokeHttpRequest(currentUrl,data['Data'].encode('unicode-escape').decode('string-escape'))
+        invokeHttpRequest(currentUrl, None)
 #print res
