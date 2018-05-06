@@ -1,0 +1,1 @@
+{"Cookies": [{"Domain": "", "Cookie": ""}, {"Domain": "http://localhost/", "Cookie": "ASP.NET_SessionId=vmn5em1vcwcsv3sfbgswkh1o; path=/; HttpOnly"}]}

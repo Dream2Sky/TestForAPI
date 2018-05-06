@@ -2,7 +2,7 @@
   "PostData":[
     {
       "API":"http://localhost/k3cloud/mobile/dmfhandler.aspx?ScreenWidth=375&ScreenHeight=667&methodname=ValidateLoginInfo",
-      "Data":"{\"ap0\": \"\",\"ap1\": \"{\"UserName\":\"demo\",\"Password\":\"888888\",\"AcctID\":\"5addbe9909d48b\",\"AcctName\":\"销售快报销售快报demo\",\"Lcid\":\"2052\",\"AuthenticateType\":1,\"EncyptType\":1,\"PasswordIsEncrypted\":false}\",\"format\": \"1\",\"nonce\": \"\",\"sign\": \"\",\"timestamp\": \"2018-05-05T07:55:50.381Z\",\"useragent\": \"JavaScript\",\"v\": \"1.0\"}"
+      "Data":"{\"ap0\": \"\",\"ap1\": \"{\\\"UserName\\\":\\\"demo\\\",\\\"Password\\\":\\\"888888\\\",\\\"AcctID\\\":\\\"5addbe9909d48b\\\",\\\"AcctName\\\":\\\"销售快报销售快报demo\\\",\\\"Lcid\\\":\\\"2052\\\",\\\"AuthenticateType\\\":1,\\\"EncyptType\\\":1,\\\"PasswordIsEncrypted\\\":false}\",\"format\": \"1\",\"nonce\": \"\",\"sign\": \"\",\"timestamp\": \"2018-05-05T07:55:50.381Z\",\"useragent\": \"JavaScript\",\"v\": \"1.0\"}"
     },
     {
       "API":"http://localhost/k3cloud/BusinessAnalysis.action",
